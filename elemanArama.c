@@ -16,10 +16,10 @@ int elemanArama(int a[], int length, int key)
 
 void main()
 {
-    int a[10] = {0};
+    int a[100] = {0};
     int length;
     int i=0;
-    printf("Dizinin uzunluðunu giriniz: ");
+    printf("Dizinin uzunluÄ‘unu giriniz: ");
     scanf("%d", &length);
     while(i<length)
     {
