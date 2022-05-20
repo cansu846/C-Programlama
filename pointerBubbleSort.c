@@ -1,19 +1,16 @@
 
 #include<stdio.h>
-#include<ctype.h>
 #define SIZE 10
 void bubleShort(  int * const array, int length );
 void main()
 {
-    const char string[] = "cansu kocaoglu 2022";
     int  a[SIZE]= {104,26,5,21,12,65,350,1,3,2};
-    printf("Orijinal array:\n");
+    printf("Original array:\n");
     for(int i=0; i<SIZE; i++)
     {
         printf("%d  ", a[i]);
-
     }
-    bubleShort(  a, SIZE );
+    bubleShort( a, SIZE );
     puts("\n\n");
     printf("Changed array:\n");
     for(int i=0; i<SIZE; i++)
